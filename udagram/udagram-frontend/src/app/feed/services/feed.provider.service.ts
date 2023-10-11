@@ -25,5 +25,6 @@ export class FeedProviderService {
     this.currentFeed$.next(feed);
     return res;
   }
+  
 
 }
