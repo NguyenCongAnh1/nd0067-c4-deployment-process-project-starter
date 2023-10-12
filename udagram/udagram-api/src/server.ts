@@ -53,7 +53,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   });
 
   // Start the Server
-  app.listen(port, () => {
+  app.listen(8080, () => {
     console.log(`Backend server is listening on port ${port}....`);
     console.log(`Frontent server running ${process.env.URL}`);
     console.log(`press CTRL+C to stop server`);
