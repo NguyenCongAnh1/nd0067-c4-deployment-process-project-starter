@@ -7,6 +7,10 @@ export const s3 = new AWS.S3({
   signatureVersion: "v4",
   region: config.aws_region,
   params: { Bucket: config.aws_media_bucket },
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET
+  }
 });
 
 // Generates an AWS signed URL for retrieving objects
