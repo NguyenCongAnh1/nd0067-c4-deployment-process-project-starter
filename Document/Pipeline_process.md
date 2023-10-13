@@ -1,6 +1,4 @@
 ## Circle CI Pipeline
-
-### Architecture
 ### Architecture
 !['pipeline flow'](/Screenshots/pipeline-flow.png)
 
